@@ -1,0 +1,50 @@
+{
+    "QA":
+    {
+        "token": "https://oauth-us.integration.blizzard.com/token",
+        "Asterion": "https://dev7-web-asterion-qa-us.acdev.blizzard.net:8443/asterion/service/rpc/",
+        "GateWay": "https://partner-us-gateway.integration.blizzard.com",
+        "Auth": "https://oauth-us.web.blizzard.net/oauth/service/rpc/"
+
+        
+    },
+    "Production":
+    {
+        "token": "https://us.battle.net/oauth/token",
+        "Asterion": "https://uw1-account-asterion-vip.ac.blizzard.net:8443/asterion/service/rpc/",
+        "GateWay": "https://partner-us-gateway.integration.blizzard.com",
+        "Auth": "https://oauth-us.client.blizzard.net/oauth/service/rpc/"
+
+    },
+    "BattleNetAccountService":
+    {
+        "baseURI": "BattlenetAccountService",
+
+        "getAccountInfo" : "/GetAccountInfo"
+    },
+    "AccountGroupService":
+    {
+        "baseURI": "AccountGroupsService",
+
+        "getCategoryDefinitions": "/getCategoryDefinitions",
+        "getAccountGroupsByCategory": "/getAccountGroupsByCategory",
+        "getAccountGroup": "/getAccountGroup",
+        "getMembersFromAccountGroup": "/getMembersForGroup"
+    },
+    "ExternalIdentityService":
+    {
+        "baseURI": "ExternalIdentityService",
+
+        "getAccountIdByEmail": "/getAccountIdByExternalIdentity"
+    },
+    "AuthorizationService":
+    {
+        "baseURI": "AuthorizationService",
+
+        "getScopeInfo": "/GetScope",
+        "getClientByScope": "/GetClientIdByScope",
+        "getClientInfo": "/GetClient",
+        "getScopesForRole": "/GetScopesForRole"
+    }
+
+}
