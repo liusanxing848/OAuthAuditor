@@ -72,7 +72,7 @@ namespace AccessAdminAuditorV3.App.UI.BatchCallExport
             string scope = "";
             //2.Get the outputfilename;
             string fileName = "";
-            string promptScopeInput = "Please enter the scope name you feel butt hurt about";
+            string promptScopeInput = "Please enter the scope to audit";
             string promptOutputFileName = "Please name your file DO NOT ADD FILE TYPE";
             UserInputPage.Run(promptScopeInput, out scope, Console.Clear);
             UserInputPage.Run(promptOutputFileName, out fileName, Console.Clear);

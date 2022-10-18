@@ -1,12 +1,12 @@
 {
     "QA":
     {
-        "ID": "44ca0c1d094740028e298951187b7a19",
-        "secret": "Na1c9Bpnts2WA5kliaKY0phpfdp3oK33"
+        "ID": "***************************",
+        "secret": "***************************"
     },
     "Production":
     {
-        "ID": "b7008568230342b490ecc99b87cdcca7",
-        "secret": "7ev5aK6td58ttIo1j1Hkzz4WukhWq0Nk"
+        "ID": "***************************",
+        "secret": "***************************"
     }
 }

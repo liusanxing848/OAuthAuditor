@@ -1,50 +1,50 @@
 {
     "QA":
     {
-        "token": "https://oauth-us.integration.blizzard.com/token",
-        "Asterion": "https://dev7-web-asterion-qa-us.acdev.blizzard.net:8443/asterion/service/rpc/",
-        "GateWay": "https://partner-us-gateway.integration.blizzard.com",
-        "Auth": "https://oauth-us.web.blizzard.net/oauth/service/rpc/"
+        "token": "***************************",
+        "Asterion": "***************************",
+        "GateWay": "***************************",
+        "Auth": "***************************"
 
         
     },
     "Production":
     {
-        "token": "https://us.battle.net/oauth/token",
-        "Asterion": "https://uw1-account-asterion-vip.ac.blizzard.net:8443/asterion/service/rpc/",
-        "GateWay": "https://partner-us-gateway.integration.blizzard.com",
-        "Auth": "https://oauth-us.client.blizzard.net/oauth/service/rpc/"
+        "token": "***************************",
+        "Asterion": "***************************",
+        "GateWay": "***************************",
+        "Auth": "***************************"
 
     },
     "BattleNetAccountService":
     {
-        "baseURI": "BattlenetAccountService",
+        "baseURI": "**************************",
 
-        "getAccountInfo" : "/GetAccountInfo"
+        "getAccountInfo" : "**************************"
     },
     "AccountGroupService":
     {
-        "baseURI": "AccountGroupsService",
+        "baseURI": "**************************",
 
-        "getCategoryDefinitions": "/getCategoryDefinitions",
-        "getAccountGroupsByCategory": "/getAccountGroupsByCategory",
-        "getAccountGroup": "/getAccountGroup",
-        "getMembersFromAccountGroup": "/getMembersForGroup"
+        "getCategoryDefinitions": "**************************",
+        "getAccountGroupsByCategory": "/**************************",
+        "getAccountGroup": "/***********",
+        "getMembersFromAccountGroup": "/***********"
     },
     "ExternalIdentityService":
     {
-        "baseURI": "ExternalIdentityService",
+        "baseURI": "***********",
 
-        "getAccountIdByEmail": "/getAccountIdByExternalIdentity"
+        "getAccountIdByEmail": "/***********"
     },
     "AuthorizationService":
     {
-        "baseURI": "AuthorizationService",
+        "baseURI": "***********",
 
-        "getScopeInfo": "/GetScope",
-        "getClientByScope": "/GetClientIdByScope",
-        "getClientInfo": "/GetClient",
-        "getScopesForRole": "/GetScopesForRole"
+        "getScopeInfo": "/***********",
+        "getClientByScope": "/***********",
+        "getClientInfo": "/***********",
+        "getScopesForRole": "/***********"
     }
 
 }
